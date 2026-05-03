@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(claude-api)",
+      "Skill(claude-api:*)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --yes)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run:*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(netstat -ano)",
+      "Bash(findstr \":3000\")",
+      "Bash(taskkill /PID 19444 /F)",
+      "Bash(cmd /c \"taskkill /PID 19444 /F\")",
+      "Bash(cmd /c \"taskkill /PID 19444 /F 2>&1\")",
+      "Bash(powershell -Command \"Stop-Process -Id 19444 -Force\")"
+    ]
+  }
+}
